@@ -1,0 +1,191 @@
+[
+	{
+		"type": "CUSTOMER","verb": "NEW","key": "96f55c7d8f42","event_time": "2017-01-06T12:46:46.384Z",
+		"last_name": "Smith","adr_city": "Middletown","adr_state": "AK"
+	},
+	{
+		"type": "SITE_VISIT","verb": "NEW",	"key": "ac05e815502f","event_time": "2017-01-06T12:45:52.041Z",
+		"customer_id": "96f55c7d8f42","tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "IMAGE","verb": "UPLOAD","key": "d8ede43b1d9f","event_time": "2017-01-06T12:47:12.344Z",
+		"customer_id": "96f55c7d8f42","camera_make": "Canon","camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER","verb": "NEW","key": "68d84e5d1a43","event_time": "2017-01-06T12:55:55.555Z",
+		"customer_id": "96f55c7d8f42","total_amount": "12.34 USD"
+	},
+	{
+		"type": "SITE_VISIT","verb": "NEW","key": "ac05e815502y","event_time": "2017-01-21T12:45:52.041Z",
+		"customer_id": "96f55c7d8f42","tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "ORDER", "verb": "NEW","key": "68d84e5d1a70","event_time": "2017-01-21T12:55:55.555Z", 
+		"customer_id": "96f55c7d8f42", "total_amount": "24.12 USD"
+	},
+	{
+		"type": "ORDER", "verb": "NEW","key": "68d84e5d1a69","event_time": "2017-01-18T10:53:12.555Z", 
+		"customer_id": "96f55c7d8f42", "total_amount": "54.23 USD"
+	},
+	{
+		"type": "CUSTOMER",	"verb": "NEW","key": "57g50c7d9f43","event_time": "2017-02-08T02:36:46.384Z",
+		"last_name": "John","adr_city": "Boston","adr_state": "MA"
+	},
+	{
+		"type": "CUSTOMER","verb": "NEW","key": "46f55c7d9f02","event_time": "2016-12-31T06:49:41.382Z",
+		"last_name": "Veka","adr_city": "Santa Clara","adr_state": "CA"
+	},
+	{
+		"type": "CUSTOMER","verb": "NEW","key": "66f55c7d9a08","event_time": "2017-02-27T19:32:46.384Z",
+		"last_name": "Yale","adr_city": "Seattle","adr_state": "WA"
+	},
+	{
+		"type": "ORDER","verb": "UPDATE","key": "38g81e5d1a11","event_time": "2017-02-08T03:01:55.555Z", 
+		"customer_id": "57g50c7d9f43", "total_amount": "26.11 USD"
+	},
+	{
+		"type": "ORDER","verb": "NEW","key": "98d84e5d1a43","event_time": "2017-03-01T12:55:55.555Z",
+		"customer_id": "66f55c7d9a08","total_amount": "15.75 USD"
+	},
+	{
+		"type": "IMAGE","verb": "UPLOAD","key": "d97hgkl3b1d9","event_time": "2017-01-01T10:42:12.344Z",
+		"customer_id": "46f55c7d9f02","camera_make": "Sony","camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER","verb": "NEW","key": "98dghj0d1a43","event_time": "2017-01-03T12:55:55.555Z",
+		"customer_id": "46f55c7d9f02","total_amount": "75.75 USD"
+	},
+	{
+		"type": "ORDER","verb": "NEW","key": "69084e5d1a40","event_time": "2017-03-06T03:23:11.555Z",
+		"customer_id": "23f56t7d9l41","total_amount": "96.00 USD"
+	},
+	{
+		"type": "SITE_VISIT","verb": "NEW","key": "0612e20950vy","event_time": "2017-02-08T02:01:52.041Z",
+		"customer_id": "57g50c7d9f43","tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "SITE_VISIT","verb": "NEW","key": "bh76e819802v","event_time": "2017-12-31T06:40:52.041Z",
+		"customer_id": "46f55c7d9f02","tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "SITE_VISIT","verb": "NEW","key": "kz05e815c02y","event_time": "2017-02-27T19:01:52.041Z",
+		"customer_id": "66f55c7d9a08","tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "CUSTOMER",	"verb": "NEW","key": "23f56t7d9l41","event_time": "2017-03-03T02:36:44.384Z",
+		"last_name": "Klein","adr_city": "Manhattan","adr_state": "NY"
+	},
+	{
+		"type": "CUSTOMER", "verb": "NEW", "key": "86q55w7d8f97", "event_time": "2017-03-16T19:17:34.369Z",
+		"last_name": "William", "adr_city": "Phoenix", "adr_state": "AZ"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "pq05e81587o7","event_time": "2017-03-16T18:59:52.041Z",
+		 "customer_id": "86q55w7d8f97", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "IMAGE", "verb": "UPLOAD", "key": "m8klp59p1d1s", "event_time": "2017-03-20T12:47:12.344Z",
+		"customer_id": "86q55w7d8f97", "camera_make": "Canon", "camera_model": "EOS 80D"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "pq05yr1587z7","event_time": "2017-03-19T08:59:52.041Z",
+		 "customer_id": "86q55w7d8f97", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "ORDER", "verb": "NEW", "key": "lk985e5d1v69", "event_time": "2017-03-19T09:35:15.331Z",
+		 "customer_id": "86q55w7d8f97", "total_amount": "62.34 USD"
+	},
+	{
+		"type": "CUSTOMER", "verb": "NEW", "key": "ppq97co09qe4", "event_time": "2017-03-21T10:40:46.384Z",
+		"last_name": "Krav", "adr_city": "Redmond", "adr_state": "WA"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "lj05n815b04f","event_time": "2017-03-21T09:45:52.041Z",
+		"customer_id": "ppq97co09qe4", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "lzx83u15b04f","event_time": "2017-03-22T11:15:52.041Z",
+		"customer_id": "ppq97co09qe4", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "IMAGE", "verb": "UPLOAD", "key": "h8ekd43wr8jf", "event_time": "2017-03-22T11:27:42.544Z",
+		"customer_id": "ppq97co09qe4", "camera_make": "Samsung", "camera_model": "SS 1400"
+	},
+	{
+		"type": "ORDER", "verb": "NEW", "key": "0pkjge5dzv43", "event_time": "2017-03-21T12:55:55.555Z",
+		"customer_id": "ppq97co09qe4", "total_amount": "91.39 USD"
+	},
+	{
+		"type": "CUSTOMER", "verb": "NEW", "key": "9jbcqy3d8f42", "event_time": "2017-02-23T11:16:46.384Z",
+		"last_name": "Troy", "adr_city": "Metuchen", "adr_state": "NJ"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "xz7geko51020","event_time": "2017-02-26T06:45:52.041Z",
+		"customer_id": "9jbcqy3d8f42", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "IMAGE", "verb": "UPLOAD", "key": "d8elop261d9f", "event_time": "2017-02-26T06:47:12.344Z",
+		"customer_id": "9jbcqy3d8f42", "camera_make": "Canon", "camera_model": "EZY 60D"
+	},
+	{
+		"type": "CUSTOMER", "verb": "NEW","key": "pol7617d8f42","event_time": "2017-02-04T02:06:06.364Z",
+		"last_name": "Makinze", "adr_city": "San Jose", "adr_state": "CA"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "ac05lorry02f","event_time": "2017-02-04T02:01:52.041Z",
+		"customer_id": "pol7617d8f42", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "ORDER", "verb": "UPDATE", "key": "68doggyd1a43", "event_time": "2017-02-04T02:09:53.555Z",
+		"customer_id": "pol7617d8f42", "total_amount": "32.39 USD"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "ac05e15235fe","event_time": "2017-03-22T10:33:52.041Z",
+		"customer_id": "96qwerty8f42", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "CUSTOMER", "verb": "NEW", "key": "96qwerty8f42","event_time": "2017-03-22T10:41:49.555Z",
+		"last_name": "Rob", "adr_city": "Austin", "adr_state": "TX"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "ackreav238fe","event_time": "2017-03-26T16:23:52.041Z",
+		"customer_id": "96qwerty8f42", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "IMAGE", "verb": "UPLOAD", "key": "dqudeerb1dyf", "event_time": "2017-03-26T16:25:12.344Z",
+		"customer_id": "96qwerty8f42", "camera_make": "Fujifilm", "camera_model": "FJK 99F"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "aghijk38feui","event_time": "2017-03-27T12:33:12.041Z",
+		"customer_id": "96qwerty8f42", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "ORDER", "verb": "NEW", "key": "15239e5d1a43", "event_time": "2017-03-27T10:25:55.555Z",
+		"customer_id": "96qwerty8f42", "total_amount": "27.54 USD"
+	},
+	{
+		"type": "SITE_VISIT", "verb": "NEW","key": "ac06e923500f","event_time": "2017-01-16T07:28:52.041Z",
+		"customer_id": "66f66c6d6f42", "tags": [{"some key": "some value"}]
+	},
+	{
+		"type": "CUSTOMER", "verb": "NEW", "key": "66f66c6d6f42", "event_time": "2017-01-16T07:29:46.384Z",
+		"last_name": "Zeng", "adr_city": "San Francisco", "adr_state": "CA"
+	},
+	{
+		"type": "ORDER", "verb": "NEW", "key": "6por781d3a49", "event_time": "2017-01-16T07:53:17.555Z",
+		"customer_id": "66f66c6d6f42", "total_amount": "67.75 USD"
+	},
+	{
+		"type": "ORDER", "verb": "UPDATE", "key": "0pkjge5dzv43", "event_time": "2017-03-23T16:55:55.555Z",
+		"customer_id": "ppq97co09qe4", "total_amount": "19.29 USD"
+	},
+	{
+		"type": "CUSTOMER", "verb": "UPDATE", "key": "ppq97co09qe4", "event_time": "2017-03-25T19:40:46.384Z",
+		"last_name": "Krav", "adr_city": "Redmond", "adr_state": "WA"
+	},
+	{
+		"type": "CUSTOMER", "verb": "NEW", "event_time": "2017-03-20T11:39:46.384Z",
+		"last_name": "Joseph", "adr_city": "Las Vegas", "adr_state": "NV"
+	}
+]
+
